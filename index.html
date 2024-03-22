@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Viajes Chile</title>
+    <!-- google font -->
+
+    <!-- carpeta de estilos -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#mimodal">
+        Suscribete
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mimodal" tabindex="-1" aria-labelledby="mimodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="mimodalLabel">Gracias por contactarnos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+               <!-- aqui pegar modal que puede ser un formulario -->
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="emailsubs" class="form-label"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        data-bs-title="tooltip de ayuda"
+                        data-bs-custom-class="mi-tooltip"
+
+                        >Email address</label>
+                        <input type="email" class="form-control" id="emailsubs" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="messagesubs" class="form-label">Comentarios</label>
+                        <textarea class="form-control" id="messagesubs" rows="5"></textarea>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin modales -->
+    <!-- carpeta js -->
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- link en bootstrap de js via cdn-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

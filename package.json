@@ -1,0 +1,17 @@
+{
+  "name": "desafio-continua-viajes-chile",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "andrea rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+// manifiesto para ingresar archivos 
+
+// abstracts
+@import './abstracts/variables/','./abstracts/custom_bootstrap';
+// vendors
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// base
+// layout
+// components
+// pages
+@import './pages/home';
+// themes

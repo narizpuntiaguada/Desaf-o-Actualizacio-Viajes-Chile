@@ -1,0 +1,8 @@
+// agregar variables con un mapa propio de colores
+$custom-colors: (
+    "color1":#030637,
+    "color2":#80B3FF
+);
+
+// merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
