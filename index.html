@@ -5,11 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Viajes Chile</title>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -47,204 +42,283 @@
         </div>
     </nav>
 
-<!-- inicio header -->
-<header>
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llamas volcan parinacota">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="moais">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pingüino">
-            </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-</header>
-<!-- fin header -->
-
-<!-- inicio main -->
-<main class="container">
-    <!-- quienes somos -->
-    <section id="quienes-somos" class="d-none d-lg-block container-fluid text-center">
-        <h3 class="my-4">¿Quienes somos?</h3>
-        <div class="row">
-            <div class="col-4">
-                <div class="bg-info text-center">
-                    <i class="fa-solid fa-plane fs-2"></i>
+    <!-- inicio header -->
+    <header>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llamas volcan parinacota">
                 </div>
-                <p class="text-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    mattis ante nulla. Donec in neque consectetur, ultrices justo eu,
-                    hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat
-                    sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                    mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex,
-                    id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum
-                    eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-            </div>
-
-            <div class="col-4">
-
-
-                <p class="text-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    mattis ante nulla. Donec in neque consectetur, ultrices justo eu,
-                    hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat
-                    sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                    mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex,
-                    id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum
-                    eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-                <div class="bg-info text-center">
-                    <i class="fa-solid fa-mountain fs-2"></i>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="moais">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pingüino">
                 </div>
             </div>
-            <div class="col-4">
-                <div class="bg-info text-center">
-                    <i class="fa-solid fa-route fs-2"></i>
-                </div>
-                <p class="text-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    mattis ante nulla. Donec in neque consectetur, ultrices justo eu,
-                    hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat
-                    sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                    mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex,
-                    id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum
-                    eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-            </div>
-        </div>
-    </section>
-    <!-- seccion destacados -->
-    <section id="destacados" class="my-4">
-        <h3 class="mb-4 text-center">Destacados</h3>
-        <div class="row row-cols-1 row-cols-md-4 g-4" >
-            <div class="col">
-                <div class="card h-100 bg-info text-white">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="parque torres del paine">
-                    <div class="card-body">
-                        <h5 class="card-title">Parque Torres del Paine</h5>
-                        <p class="card-text">El Parque Nacional Torres del Paine está ubicado en la comuna de Torres
-                            del Paine, Provincia de Última Esperanza, Región de Magallanes y de la Antártica
-                            Chilena, a 400 km al noroeste de Punta Arenas y a 112 km al noroeste de Puerto Natales.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 bg-info text-white">
-                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="laguna Chaxa">
-                    <div class="card-body">
-                        <h5 class="card-title">Laguna Chaxa</h5>
-                        <p class="card-text">La Laguna Chaxa es considerada uno de los mejores lugares de Chile
-                            para ver flamencos ya que no es una laguna profunda y le permite a estas aves
-                            alimentarse. Sin embargo, debido a las oscilaciones de temperatura entre el día
-                            y la noche.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 bg-info text-white">
-                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="Salar de Chaxa">
-                    <div class="card-body">
-                        <h5 class="card-title">Salar de Chaxa</h5>
-                        <p class="card-text">Cuando visites la laguna Chaxa te encontraras en el corazon del salar
-                            de Atacama, la reserva salina mas grande de Chile, que posee una superficie de 3000
-                            kilometros cuadrados y donde se encuentran grandes reservas de litio, potasio y yodo..
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 bg-info text-white">
-                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="selva valdiviana">
-                    <div class="card-body">
-                        <h5 class="card-title">Selva Valdiviana</h5>
-                        <p class="card-text">La Selva Valdiviana es un refugio de biodiversidad que estuvo aislado
-                            por millones de años, siendo hoy la manera más cercana de ver cómo los dinosaurios
-                            solían vivir. La principal diferencia entre las selvas tropicales y el bosque lluvioso
-                            chileno, es que este último se desarrolla en climas fríos con duros inviernos,
-                            haciéndolo un patrimonio natural de clase mundial.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- seccion contacto { 202 class="my-4"}-->
-    <section id="contacto" class="my-2">
-        <h3 class="mb-4 text-center">Contacto</h3>
-
-
-        <form>
-
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Asunto</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-
-            <button id="enviar_correo" type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                data-bs-title="Presione para enviar" href="">
-                Enviar mensaje
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-        </form>
-    </section>
-</main>
-
-<footer class="py-3 mt-4 border-top bg-info text-white">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-            <span class="mb-3 mb-md-0">viajes chile</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end gap-4 d-flex fs-3">
+    </header>
+    <!-- fin header -->
 
-            <a class="text-white text-decoration-none" href="https://twitter.com/"><i
-                    class="fa-brands fa-twitter"></i></a>
-            <a class="text-white text-decoration-none" href="https://www.facebook.com/"></a><i
-                class="fa-brands fa-facebook"></i>
-            <a class="text-white text-decoration-none" href="https://github.com/"></a><i
-                class="fa-brands fa-github"></i>
-            <a class="text-white text-decoration-none" href="https://www.linkedin.com/"><i
-                    class="fa-brands fa-linkedin-in"></i></a>
-        </ul>
-    </div>
-</footer>
+    <!-- inicio main -->
+    <main class="container">
+        <!-- quienes somos -->
+        <section id="quienes-somos" class="container-fluid text-center">
+            <h3 class="my-4">¿Quienes somos?</h3>
+            <hr>
+            <div class="row">
+
+                <div class="col-6 d-none d-lg-block">
+                    <img src="./assets/img/gente-torres-paine.jpg" width="400px" alt="personas">
+                </div>
+
+                <div class="col-12 col-lg-6">
+
+                    <p class="text-start py-5">
+                        ¿Quiénes somos? Somos tu puerta de entrada al mundo. En nuestra agencia de viajes, convertimos
+                        tus sueños en experiencias memorables. Con un equipo apasionado y conocedor, diseñamos aventuras
+                        personalizadas que se adaptan a tus gustos y presupuesto. Desde destinos exóticos hasta
+                        escapadas locales, ofrecemos una amplia gama de opciones para satisfacer tus deseos de explorar.
+                        Con un enfoque en la calidad, la comodidad y la seguridad, nos esforzamos por superar tus
+                        expectativas en cada viaje. ¡Déjanos llevarte a lugares nuevos y emocionantes mientras creamos
+                        recuerdos inolvidables juntos!
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- seccion destacados -->
+        <section id="destacados" class="my-4">
+            <h3 class="mb-4 text-center">Destacados</h3>
+            <hr>
+
+            <div class="row row-cols-1 row-cols-md-2">
+
+
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row h-100">
+                            <div class="col-md-5 g-0">
+                                <img src="./assets/img/card1.jpg" class="img-fluid h-100 object-fit-cover rounded-start"
+                                    alt="Parque Torre del Paine">
+                            </div>
+                            <div class="col-md-7 g-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Parque Nacional Torres de Paine</h5>
+                                    <p>Parque Nacional Torres del Paine está ubicado en la, Provincia
+                                        de Última Esperanza.Descubre lagos cristalinos y bosques exuberantes,
+                                        disfruta de deportes acuáticos.Un destino turístico inolvidable.
+                                    </p>
+                                </div>
+                                <div class="card-footer py-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-plane-up px-2"></i>
+                                    <span class="card-text__p"><small class="text-body-secondary">
+                                            Vuelos desde
+                                        </small></span> <span
+                                        class="card-text__span ms-auto fw-semibold">$159.990</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row h-100">
+                            <div class="col-md-5 g-0">
+                                <img src="./assets/img/card2.jpg" class="img-fluid h-100 object-fit-cover rounded-start"
+                                    alt="Parque Torre del Paine">
+                            </div>
+                            <div class="col-md-7 g-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Laguna Chaxa</h5>
+                                    <p class="card-text">Embárcate en una experiencia única en la Laguna Chaxa. Admira
+                                        flamencos rosados en su hábitat natural, mientras te maravillas con el atardecer
+                                        sobre las aguas salinas. Un espectáculo natural imperdible.
+                                    </p>
+                                </div>
+                                <div class="card-footer py-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-plane-up px-2"></i>
+                                    <span class="card-text__p"><small class="text-body-secondary">
+                                            Vuelos desde
+                                        </small></span> <span
+                                        class="card-text__span ms-auto fw-semibold">$189.990</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row h-100">
+                            <div class="col-md-5 g-0">
+                                <img src="./assets/img/card3.jpg" class="img-fluid h-100 object-fit-cover rounded-start"
+                                    alt="Parque Torre del Paine">
+                            </div>
+                            <div class="col-md-7 g-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salar de Chaxa</h5>
+                                    <p class="card-text">Cuando visites la laguna Chaxa te encontraras en el corazon del
+                                        salar de Atacama, la reserva salina posee una superficie de 3000 kilometros
+                                        cuadrados y donde se encuentran grandes reservas de litio, potasio y yodo.
+                                    </p>
+                                </div>
+                                <div class="card-footer py-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-plane-up px-2"></i>
+                                    <span class="card-text__p"><small class="text-body-secondary">
+                                            Vuelos desde
+                                        </small></span> <span
+                                        class="card-text__span ms-auto fw-semibold">$289.990</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row h-100">
+                            <div class="col-md-5 g-0">
+                                <img src="./assets/img/card4.jpg" class="img-fluid h-100 object-fit-cover rounded-start"
+                                    alt="Parque Torre del Paine">
+                            </div>
+                            <div class="col-md-7 g-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bosque Mágico</h5>
+                                    <p class="card-text">Adéntrate en el misterioso Bosque Mágico. Sus árboles
+                                        milenarios y formaciones rocosas te transportarán a un mundo de fantasía. Déjate
+                                        cautivar por su aura enigmática y sus paisajes impresionantes</p>
+                                </div>
+                                <div class="card-footer py-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-plane-up px-2"></i>
+                                    <span class="card-text__p"><small class="text-body-secondary">
+                                            Vuelos desde
+                                        </small></span> <span
+                                        class="card-text__span ms-auto fw-semibold">$259.990</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- fin seccion destacados -->
+
+        <!-- inicio seccion Testimonios-->
+        <section id="testimonios" class="my-4 container">
+            <h3 class="mb-4 text-cente">Testimonios</h3>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="testimonio__text">
+                        <p>"¡Una experiencia increíble! Los paisajes deslumbrantes, la hospitalidad y la aventura
+                            superaron
+                            todas mis expectativas. Definitivamente volveré. Gracias por unas vacaciones inolvidables."
+                        </p>
+                    </div>
+
+                    <div class="testimonio__image">
+                        <img src="./assets/img/testimonio1.jpg" width="80" alt="foto de persona">
+                    </div>
+                    <strong>nombre</strong>
+                </div>
+                <div class="col-12 col-lg-4">
+
+                    <div class="testimonio__text">
+                        <p>"¡Increíble! Destino perfecto para desconectar. Naturaleza asombrosa, gente encantadora y
+                            actividades
+                            emocionantes. Una experiencia que recordaré para siempre. ¡Volveré sin duda!"</p>
+                    </div>
+
+                    <div class="testimonio__image">
+                        <img src="./assets/img/testimonio2.jpg" width="80" alt="foto de persona">
+                    </div>
+                    <strong>nombre</strong>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="testimonio__text">
+                        "¡Inolvidable! Descubrir este destino fue un regalo. Naturaleza impactante, cultura fascinante y
+                        momentos que quedan grabados para siempre. ¡Gracias por una experiencia única y llena de
+                        aventuras!"
+                    </div>
+
+                    <div class="testimonio__image">
+                        <img src="./assets/img/testimonio3.jpg" width="80" alt="foto de persona">
+                    </div>
+                    <strong>nombre</strong>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- fin seccion Testimonios-->
+
+        <!-- seccion contacto-->
+        <section id="contacto" class="my-2">
+            <h3 class="mb-4 text-center">Contacto</h3>
+
+
+            <form>
+
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+
+                <button id="enviar_correo" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                    data-bs-placement="bottom" data-bs-title="Presione para enviar" href="">
+                    Enviar mensaje
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="py-3 mt-4 border-top bg-info text-white">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0">viajes chile</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end gap-4 d-flex fs-3">
+
+                <a class="text-white text-decoration-none" href="https://twitter.com/"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a class="text-white text-decoration-none" href="https://www.facebook.com/"></a><i
+                    class="fa-brands fa-facebook"></i>
+                <a class="text-white text-decoration-none" href="https://github.com/"></a><i
+                    class="fa-brands fa-github"></i>
+                <a class="text-white text-decoration-none" href="https://www.linkedin.com/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </ul>
+        </div>
+    </footer>
 
 
 
@@ -330,10 +404,9 @@
     <!--fin modales -->
     <!-- carpeta js -->
     <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <!-- link en bootstrap de js via cdn-->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <!--archivo script-->
+    <script defer src="./assets/js/scripts.js"></script>
+
 </body>
 
 </html>

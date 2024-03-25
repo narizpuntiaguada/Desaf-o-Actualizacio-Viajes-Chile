@@ -4,12 +4,14 @@
 // manifiesto para ingresar archivos 
 
 // abstracts
-@import './abstracts/variables/','./abstracts/custom_bootstrap';
+@import './abstracts/variables','./abstracts/custom_bootstrap';
 // vendors
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 // base
+@import './base/typography';
 // layout
+@import './layout/testimonio.scss';
 // components
 // pages
 @import './pages/home';
