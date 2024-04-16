@@ -1,0 +1,8 @@
+#carouselExampleIndicators .carousel-item img {
+    height: 300px;
+}
+@media (min-width: 992px) {
+    #carouselExampleIndicators .carousel-item img {
+        height: 500px;
+    }
+}

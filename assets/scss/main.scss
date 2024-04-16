@@ -9,9 +9,9 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 // base
-@import './base/typography';
+@import './base/typography','./base/base';
 // layout
-@import './layout/testimonio.scss';
+@import './layout/testimonios';
 // components
 // pages
 @import './pages/home';

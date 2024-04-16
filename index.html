@@ -41,6 +41,8 @@
             </div>
         </div>
     </nav>
+    <div class="fixed-top" id="liveAlertPlaceholder" role="alert">
+    </div>
 
     <!-- inicio header -->
     <header>
@@ -219,46 +221,49 @@
 
         <!-- inicio seccion Testimonios-->
         <section id="testimonios" class="my-4 container">
-            <h3 class="mb-4 text-cente">Testimonios</h3>
+            <h3 class="mb-4 text-center">Testimonios</h3>
             <hr>
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <div class="testimonio__text">
+                    <div class="testimonios__text">
                         <p>"¡Una experiencia increíble! Los paisajes deslumbrantes, la hospitalidad y la aventura
                             superaron
                             todas mis expectativas. Definitivamente volveré. Gracias por unas vacaciones inolvidables."
                         </p>
                     </div>
 
-                    <div class="testimonio__image">
-                        <img src="./assets/img/testimonio1.jpg" width="80" alt="foto de persona">
+                    <div class="testimonios__image">
+                        <img class="testimonios__avatar" src="./assets/img/testimonio1.jpg" width="80px"
+                            alt="foto de persona">
                     </div>
-                    <strong>nombre</strong>
+                    <p class="testimonios__name">Mariela</p>
                 </div>
                 <div class="col-12 col-lg-4">
 
-                    <div class="testimonio__text">
+                    <div class="testimonios__text">
                         <p>"¡Increíble! Destino perfecto para desconectar. Naturaleza asombrosa, gente encantadora y
                             actividades
                             emocionantes. Una experiencia que recordaré para siempre. ¡Volveré sin duda!"</p>
                     </div>
 
-                    <div class="testimonio__image">
-                        <img src="./assets/img/testimonio2.jpg" width="80" alt="foto de persona">
+                    <div class="testimonios__image">
+                        <img class="testimonios__avatar" src="./assets/img/testimonio2.jpg" width="80px"
+                            alt="foto de persona">
                     </div>
-                    <strong>nombre</strong>
+                    <p class="testimonios__name">Christian</p>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="testimonio__text">
+                    <div class="testimonios__text">
                         "¡Inolvidable! Descubrir este destino fue un regalo. Naturaleza impactante, cultura fascinante y
                         momentos que quedan grabados para siempre. ¡Gracias por una experiencia única y llena de
                         aventuras!"
                     </div>
 
-                    <div class="testimonio__image">
-                        <img src="./assets/img/testimonio3.jpg" width="80" alt="foto de persona">
+                    <div class="testimonios__image">
+                        <img class="testimonios__avatar" src="./assets/img/testimonio3.jpg" width="80px"
+                            alt="foto de persona">
                     </div>
-                    <strong>nombre</strong>
+                    <p class="testimonios__name">Fernanda</p>
                 </div>
             </div>
 
@@ -271,28 +276,60 @@
         <section id="contacto" class="my-2">
             <h3 class="mb-4 text-center">Contacto</h3>
 
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu nombre."> </i>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
 
-            <form>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Email</label>
+                                <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu email."> </i>
+                                <input type="email" class="form-control" id="exampleInputPassword1">
 
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Deja tu mensaje."> </i>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
 
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Asunto</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div class="form-check py-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Acepto los términos y condiciones
+                            </label>
+                        </div>
+                        <button id="liveAlertBtn" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" data-bs-title="Presione para enviar" href="">
+                            Enviar mensaje
+                        </button>
+
+                    </form>
                 </div>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <p><i class="fa-solid fa-phone"></i> +56 999988776</p>
+                    <p><i class="fa-solid fa-envelope"></i> contacto@viajeschile.com</p>
+                    <p><i class="fa-brands fa-linkedin"></i> ViajesChile</p>
+                    <p><i class="fa-brands fa-instagram"></i> viajes_chile</p>
 
-                <button id="enviar_correo" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
-                    data-bs-placement="bottom" data-bs-title="Presione para enviar" href="">
-                    Enviar mensaje
-                </button>
-            </form>
+
+                </div>
+            </div>
         </section>
+
+
     </main>
 
     <footer class="py-3 mt-4 border-top bg-info text-white">
@@ -320,88 +357,30 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#mimodal">
-        Suscribete
-    </button>
-
     <!-- Modal -->
-    <div class="modal fade" id="mimodal" tabindex="-1" aria-labelledby="mimodalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="mimodalLabel">Gracias por contactarnos</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Termino y Condiciones</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <!-- aqui pegar modal que puede ser un formulario -->
                 <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="emailsubs" class="form-label" data-bs-toggle="tooltip" data-bs-placement="right"
-                            data-bs-title="tooltip de ayuda" data-bs-custom-class="mi-tooltip">Email address</label>
-                        <input type="email" class="form-control" id="emailsubs" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="messagesubs" class="form-label">Comentarios</label>
-                        <textarea class="form-control" id="messagesubs" rows="5"></textarea>
-                    </div>
+                    Al realizar la reserva con Viajes Chile SPA (en adelante, “Viajes Chile”) y emitir la confirmación
+                    de viaje,
+                    su acceso al uso del servicio está condicionado a la aceptación y cumplimiento de los siguientes
+                    términos y condiciones. Cuando realiza una reserva con nosotros, garantiza que tiene la autoridad
+                    para aceptar y acepta en nombre de su parte los términos de estas Condiciones de reserva.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+
                 </div>
             </div>
         </div>
     </div>
     <!--fin modales -->
+
     <!-- carpeta js -->
     <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <!--archivo script-->
